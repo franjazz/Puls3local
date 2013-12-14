@@ -1,0 +1,148 @@
+a
+{
+	color: #dd4f24;
+}
+
+body 
+{
+	background: #EFEFEF;   /*gris clarito*/
+	color: #4c4c4c;
+	font-family: "PT Sans", Arial;
+	font-size: 16px;
+	margin:0;
+}
+
+header 
+{
+	background: #434343;
+	color: white;
+	margin:0;
+	padding: 0.5em;
+}
+
+header figure, header h1 
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+header h1 
+{
+	font-size: 20px;	
+	font-weight: normal;
+	margin: 1em 0 0 1em;
+	width: 60%;
+}
+
+header #avatar 
+{
+	float: right;
+	margin: 1em 1em 0 0;
+}
+
+header #avatar figcaption 
+{
+	background: #22BCE0;
+	float:right;
+	height: 50px;
+	padding: 0 2px;  /*el objeto clicleable, asi con el padding todo el figcaption sera clickable */
+}
+header #avatar img 
+{
+	float: left;
+ 	width:50px;  /* el tamaño original es 100x100. se pasa a la mitad por retina display. Solo width, el height es automatico*/
+}
+header #logo img 
+{
+ 	width:80px;  /* el tamaño original es 160x160. se pasa a la mitad por retina display. Solo width, el height es automatico*/
+}
+
+nav
+{
+	background: #878787;
+	font-size: 0.9em;
+}
+
+nav ul 
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li 
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 1.2em 0 0;
+}
+
+nav ul li a 
+{
+	color:white;
+	display: block;  /*los a son inline y si no se pone block no pueden tener ni margin ni pading */
+	padding: 0.5em 0;
+/* si un elemento es cliceable y no es obvio que sea clickeable se deja el subrayado. No se pone text-decoration:none */
+}
+
+nav #flechita_nav a
+{
+	background: #22BCE0;
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+}
+
+nav #publicar_nav 
+{
+	float:right;
+	margin-right: 0;
+}
+
+nav #publicar_nav a
+{
+	background: #DD4F24;
+	padding: 0.5em 1em;
+	text-decoration: none;
+} 
+#contenido 
+{
+	margin: 1em;
+}
+
+#contenido .item
+{
+	background: white;
+	border-bottom: 3px solid #22BCE0;
+}
+#contenido .item p 
+{
+	color: #7a7a7a;
+	font-size: 0.9em;
+}
+#contenido .item .datos_item .tag_item
+{
+	background: #22BCE0;
+	border-radius: 0.5em;
+	color: white;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+}
+#contenido .item .imagen_item 
+{
+	float:left;
+	margin: 0 1em 0 0;
+}
+#contenido .item .imagen_item img 
+{
+	width:96px;
+}
+#contenido .item .titulo_item
+{
+	font-size:1em;
+	font-style: italic;
+	padding: 0.5em 0.5em 0;
+}
+#contenido .item .titulo_item a {
+	color:#444;
+	text-decoration: none;
+}
